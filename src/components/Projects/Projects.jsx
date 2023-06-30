@@ -7,8 +7,6 @@ import colorSharp2 from "../../assets/img/color-sharp2.png";
 import styles from "./projects.module.css";
 import imgproj1 from "../../assets/img/SabuesoPerdioSuHueso.png";
 import imgproj2 from "../../assets/img/footshopHomePage.png";
-import imgproj3 from "../../assets/img/dcarbone2.png";
-import imgproj4 from "../../assets/img/fotopivr2.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 function Projects() {

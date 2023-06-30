@@ -49,7 +49,7 @@ function NavBar() {
             <a href='https://www.linkedin.com/in/agustin-gimenez-31760a200/'> <img src={logolink} alt="logo link" /> </a>
             <a href='mailto:agusgimenez097@gmail.com'><img src={logomail} alt="logomail" /></a>
             </div>
-            <a href='mailto:gabrielsal00@hotmail.com'><button className='vvd'><span>Conectemos</span></button></a>
+            <a href='mailto:agusgimenez097@gmail.com'><button className='vvd'><span>Conectemos</span></button></a>
           </span>
         </Navbar.Collapse>
       </Container>

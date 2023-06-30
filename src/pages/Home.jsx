@@ -10,11 +10,11 @@ function Home() {
   return (
     <div>
         <NavBar/>
-        <Banner />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
+        <Banner/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }

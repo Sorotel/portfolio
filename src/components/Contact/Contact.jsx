@@ -67,7 +67,7 @@ function Contact() {
               <h2>Contáctame</h2>
               <form
                 onSubmit={handleSubmit}
-                action="https://formsubmit.co/gabrielsal00@hotmail.com"
+                action="https://formsubmit.co/agusgimenez097@gmail.com"
                 method="POST"
               >
                 <Row>

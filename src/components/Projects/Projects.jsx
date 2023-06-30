@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Col, Container, Row, Tab } from "react-bootstrap";
-// import ProjectCard from '../ProjectCard/ProjectCard';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
@@ -10,25 +9,6 @@ import imgproj2 from "../../assets/img/footshopHomePage.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 function Projects() {
-  // const projects = [
-  //   {
-  //     title: "Videogame App",
-  //     description:
-  //       "Diseñar, desarrollar una App de videojuegos que incluye búsquedas, filtrados, ordenamientos y creación de los mismos.",
-  //     imgUrl: imgproj1
-  //     },
-  //   {
-  //     title: "Not Waste",
-  //     description:
-  //       "Desarrollar renderizado condicional dependiendo el usuario que ingrese a la aplicación. Implementar formulario de proveedor para la carga de productos. Crear funcionalidad de borrado lógico. Diseño y desarrollo de landing. Asistir a dailys utilizando metodologías ágiles para mejorar el desempeño del grupo y proponer ideas para avanzar con el proyecto.",
-  //       imgUrl: imgproj2
-  //     },
-  //   {
-  //     title: "DeCarboneCompraTodo",
-  //     description: "App realizada de manera freelance para emprendimiento.",
-  //     imgUrl: imgproj3
-  //   },
-  // ];
 
   useEffect(() => {
     Aos.init({ duration: 1000 });

@@ -100,11 +100,11 @@ function Projects() {
                                 Deploy <ArrowRightCircle size={25} />
                               </button>
                             </a>
-                            <a href="a">
+                            {/* <a href="a">
                               <button className={styles.buttonCard}>
                                 Video <ArrowRightCircle size={25} />
                               </button>
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
@@ -132,7 +132,7 @@ function Projects() {
                                 Repo <ArrowRightCircle size={25} />
                               </button>
                             </a>
-                            <a href="a">
+                            <a href="https://pibesistemas.vercel.app">
                               <button className={styles.buttonCard}>
                                 Deploy <ArrowRightCircle size={25} />
                               </button>

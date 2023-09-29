@@ -6,10 +6,10 @@ import colorSharp2 from "../../assets/img/color-sharp2.png";
 import styles from "./projects.module.css";
 import imgproj1 from "../../assets/img/SabuesoPerdioSuHueso.png";
 import imgproj2 from "../../assets/img/footshopHomePage.png";
+import imgproj3 from "../../assets/img/elpibedesistemas.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 function Projects() {
-
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -56,9 +56,9 @@ function Projects() {
                         <div className={styles.projtxtx}>
                           <h4>Sabueso perdio su Hueso</h4>
                           <span>
-                            "Aplicación de Raza de perros donde se pueden realizar
-                            búsquedas, filtrados, ordenamientos y creación de
-                            los mismos."
+                            "Aplicación de Raza de perros donde se pueden
+                            realizar búsquedas, filtrados, ordenamientos y
+                            creación de los mismos."
                           </span>
                           <div>
                             <a href="https://github.com/Sorotel/dogs-pi-soyhenry">
@@ -85,8 +85,9 @@ function Projects() {
                         <div className={styles.projtxtx}>
                           <h4>Footshop</h4>
                           <span>
-                            "E-commerce desarrollado con la idea principal E-commerce desarrollado con  idea principal 
-de vender calzados de caracter exclusivo "
+                            "E-commerce desarrollado con la idea principal
+                            E-commerce desarrollado con idea principal de vender
+                            calzados de caracter exclusivo "
                           </span>
                           <div>
                             <a href="https://github.com/HenryPG13">
@@ -108,7 +109,38 @@ de vender calzados de caracter exclusivo "
                         </div>
                       </div>
                     </Col>
-                   
+
+                    <Col sm={6} md={4}>
+                      <div className={styles.projimgbx} data-aos="flip-up">
+                        <img
+                          src={imgproj3}
+                          alt="img card"
+                          className="img-fluid"
+                        />
+                        <div className={styles.projtxtx}>
+                          <h4>El Pibe De Sistemas</h4>
+                          <span>
+                            "Proyecto realizado para pagina de presentacion
+                            poseyendo una forma SPA (single page applpication).
+                            El enfoque principal fue la distribucion dinamica
+                            del servicio que ellos presentan y un facil acceso a
+                            poder conectar con ellos."
+                          </span>
+                          <div>
+                            <a href="https://github.com/Sorotel/pibesistemas">
+                              <button className={styles.buttonCard}>
+                                Repo <ArrowRightCircle size={25} />
+                              </button>
+                            </a>
+                            <a href="a">
+                              <button className={styles.buttonCard}>
+                                Deploy <ArrowRightCircle size={25} />
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </Col>
                   </Row>
                 </Tab.Pane>
               </Tab.Content>
